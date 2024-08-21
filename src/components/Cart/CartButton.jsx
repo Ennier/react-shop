@@ -1,6 +1,6 @@
 import classes from './CartButton.module.css';
 import {useDispatch} from "react-redux";
-import {toggleCartActions} from "../../store/cartToggle";
+import {toggleCartActions} from "../../store/toggleCart";
 
 const CartButton = (props) => {
   const dispatch = useDispatch();
