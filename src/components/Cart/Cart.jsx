@@ -4,7 +4,7 @@ import classes from './Cart.module.css';
 import CartItem from './CartItem';
 
 const Cart = (props) => {
-  const cartItems = useSelector(state => state.cartItems.items);
+  const cartItems = useSelector(state => state.cartSlice.items);
   console.log(cartItems);
 
   return (
